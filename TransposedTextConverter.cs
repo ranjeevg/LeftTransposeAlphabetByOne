@@ -36,7 +36,7 @@ namespace leftTransposingByOne.Models
                     index -= 1;
                     // index = Helper.Mod(index, DictionarySize);
                     decoded += Helper.AlphabetNumberDictionary
-                        .FirstOrDefault(x => x.Value == index).Key;
+                        .First(x => x.Value == index).Key;
                 }
                 else
                 {
